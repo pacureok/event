@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #f1f2f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background-color: #1e272e;
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+    border-top: 6px solid #ff3f34;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+header h1 {
+    color: #ff3f34;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #0fb9b1;
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+li {
+    background-color: #2d3436;
+    margin-bottom: 10px;
+    padding: 12px 15px;
+    border-radius: 8px;
+    font-size: 1.05rem;
+    line-height: 1.5;
+    border-left: 4px solid #0fb9b1;
+}
+
+.optional li {
+    border-left: 4px solid #feca57;
+}
+
+.optional h2 {
+    color: #feca57;
+}
+
+strong {
+    color: #0fb9b1;
+}
+
+.warning {
+    background-color: #ff3f34;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.warning h2 {
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.warning strong {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.action-btn {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.action-btn a {
+    display: inline-block;
+    background-color: #0be881;
+    color: #1e272e;
+    text-decoration: none;
+    padding: 15px 40px;
+    font-size: 1.3rem;
+    font-weight: 800;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 4px 15px rgba(11, 232, 129, 0.4);
+}
+
+.action-btn a:hover {
+    background-color: #05c46b;
+    transform: scale(1.05) translateY(-3px);
+    box-shadow: 0 6px 20px rgba(11, 232, 129, 0.6);
+}
+
+footer {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 0.95rem;
+    color: #808e9b;
+}
